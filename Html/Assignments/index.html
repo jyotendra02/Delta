@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Forms</title>
+    <style>
+      fieldset{
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Student Details</h1>
+      <a href="http://www.google.com">google </a>
+
+    <form class="form" action="" method="post">
+      <div>
+        <label for="name"><u>Student Name</u></label>
+        <input type="text" id="name" placeholder="Student's Name"/>
+      </div>
+
+      <div>
+        <label for="fname">Father Name</label>
+        <input type="text" id="fname" placeholder="Father's Name" />
+      </div>
+      <div>
+        <fieldset >
+          <legend>Gender</legend>
+          <div> 
+            <input type="radio" id="Male" name="GENDER" value="Male"  />
+            <label for="Male">Male</label>
+          </div>
+          <div>
+            <input type="radio" id="Female" name="GENDER" value="Female"  />
+            <label for="Female">Female</label></div>
+         </fieldset>
+        </div>
+      </div>
+      <button>Submit</button>
+    </form>
+    </div>
+  </body>
+</html>

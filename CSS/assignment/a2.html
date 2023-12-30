@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<htmllang ="en" >
+   <head>
+    <metacharset ="UTF-8" />
+    <metahttp-equiv ="X-UA-Compatible" content="IE=edge" />
+    <metaname ="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>CSSAssignment</title>
+  </head>
+  <style>
+    *{
+        text-align: center;
+        
+    }
+    h1,h3,h5{
+        font-family: Georgia;
+    }
+    #mainTopic{
+        color: blue;
+    }
+    .content{
+        color: white;
+        background-color: cornflowerblue;
+    }
+    div button{
+        background-color: purple;
+        color: azure;
+    }
+    div button:hover{
+        background-color: yellow;
+        color: blue;
+    }
+    p:nth-of-type(2n+1){
+        color: yellow;
+    }
+    h1::first-letter{
+        color: red;
+    }
+    #yes:checked+label{
+        color:darkgreen;
+    }
+    
+  </style>
+  <body>
+    <h1 id="mainTopic">CSSPractice </h1>
+    <h3>Let'slearnaboutselector. </h3>
+    <!--Paragraph1-->
+    <p>Therearemultipleselectorsincss. </p>
+    <!--Paragraph2-->
+    <p>Someofthemincludeclassselector,idselectoretc. </p>
+    <!--Paragraph3-->
+    <p>Andwecanalsocombinethesetoo.</p>
+    <div>
+        <h5>Did you like the practiceset? </h5>
+        <input type="checkbox" id="yes"/>
+        <label for="yes" > Yes </label> 
+        <br/>
+        <button>Learn next! </button>
+    </div>
+   </body>
+</html
+
+   

@@ -1,0 +1,67 @@
+<?php
+// Initialize variables to store user input and error messages
+$username = $password = $email = "";
+$usernameError = $passwordError = $emailError = "";
+
+// Check if the form is submitted
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Retrieve user input from the form
+    $username = $_POST["username"];
+    $password = $_POST["password"];
+    $email = $_POST["email"];
+
+    // Check if the username is empty
+    if (empty($username)) {
+        $usernameError = "Username is required";
+    }
+
+    // Check if the password is empty
+    if (empty($password)) {
+        $passwordError = "Password is required";
+    }
+
+    // Check if the email is empty and in a valid format
+    if (empty($email)) {
+        $emailError = "Email is required";
+    } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        $emailError = "Invalid email format";
+    }
+}
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Form Validation</title>
+</head>
+<body>
+
+<h2>User Registration Form</h2>
+
+<form method="post" action="">
+    <!-- Username input -->
+    <label for="username">Username:</label>
+    <input type="text" name="username" id="username">
+    <span><?php echo $usernameError; ?></span>
+    <br>
+
+    <!-- Password input -->
+    <label for="password">Password:</label>
+    <input type="password" name="password" id="password">
+    <span style="color: red;"><?php echo $passwordError; ?></span>
+    <br>
+
+    <!-- Email input -->
+    <label for="email">Email:</label>
+    <input type="text" name="email" id="email">
+    <span style="color: red;"><?php echo $emailError; ?></span>
+    <br>
+
+    <!-- Submit button -->
+    <input type="submit" name="submit" value="Submit">
+</form>
+
+</body>
+</html>
