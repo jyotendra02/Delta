@@ -31,5 +31,5 @@ const sum = (a,b) => {
 
 //for single parameter no paranthesis is required
 const cube = n => {
-  return n*n*n;
+   n*n*n; //implicit return in 
 }
