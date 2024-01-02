@@ -72,3 +72,4 @@ function getMin(num){
   });
   return min;
 }
+// Default Parameter 
