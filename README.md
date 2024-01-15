@@ -1,4 +1,5 @@
 #Delta batch for Full Stack Development
-this is repo where i put codes of Full stack web development
+This is Repo where I put codes of Full Stack Web Development
 
 Topics:
+1.
