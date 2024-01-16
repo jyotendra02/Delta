@@ -6,32 +6,68 @@
   </head>
   <body>
     <script>
-// Qs1. Create a number variable num with some value.
-// Now, print “good” if the number is divisible by 10 and print “bad” if it is not.
+      // Qs1. Create a number variable num with some value.
+      // Now, print “good” if the number is divisible by 10 and print “bad” if it is not.
       let num = prompt("Enter a number: ");
       if(num%10==0){
         alert("Good!!");
       }else{
         alert("Bad!!");
       }
-// Qs2. Take the user's name & age as input using prompts.
-// Then return back the following statement to the user as an alert (by substituting
-// their name & age) :
-// name is age years old.
-// [Use template Literals to print this sentence]
+      // Qs2. Take the user's name & age as input using prompts.
+      // Then return back the following statement to the user as an alert (by substituting
+      // their name & age) :
+      // name is age years old.
+      // [Use template Literals to print this sentence]
+      let userName = prompt("Enter User Name: ");
+      let userAge = prompt("Enter User's Age: ");
+      console.log(`${userName} is ${userAge} years old`);
+      // Qs3. Write a switch statement to print the months in a quarter.
+      // Months in Quarter 1 : January, February, March
+      // Months in Quarter 2 : April, May, June
+      // Months in Quarter 3 : July, August, September
+      // Months in Quarter 4: October, November, December
+      // [Use the number as the case value in switch]
+      let month = 1;
 
-// Qs3. Write a switch statement to print the months in a quarter.
-// Months in Quarter 1 : January, February, March
-// Months in Quarter 2 : April, May, June
-// Months in Quarter 3 : July, August, September
-// Months in Quarter 4: October, November, December
-// [Use the number as the case value in switch]
+      switch(month){
+          case 1: console.log("January"); 
+          break;
+          case 2: console.log("February"); 
+          break;
+          case 3: console.log("March"); 
+          break;
+          case 4: console.log("April"); 
+          break;
+          case 5: console.log("May"); 
+          break;
+          case 6: console.log("June"); 
+          break;
+          case 7: console.log("July"); 
+          break;
+          case 8: console.log("August"); 
+          break;
+          case 9: console.log("September"); 
+          break;
+          case 10: console.log("October"); 
+          break;
+          case 11: console.log("November"); 
+          break;
+          case 12: console.log("December"); 
+          break;
+          
+      };
 
-// Qs4. A string is a golden string if it starts with the character ‘A’ or ‘a’ and has a total
-// length greater than 5.
-// For a given string print if it is golden or not.
-
-// Qs5. Write a program to find the largest of 3 numbers.
+      // Qs4. A string is a golden string if it starts with the character ‘A’ or ‘a’ and has a total
+      // length greater than 5.
+      // For a given string print if it is golden or not.
+      let string = "";
+      if((string[0]=="A" || string[0]=='a') && length(string)>5){
+        console.log('Is Golden');
+      }else{
+        console.log('Not Golden');
+      }
+      // Qs5. Write a program to find the largest of 3 numbers.
     </script>
   </body>
 </html>
