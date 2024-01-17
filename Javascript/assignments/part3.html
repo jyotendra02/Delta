@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part 3</title>
+</head>
+<body>
+    <script>
+//      Qs1. Write a JavaScript program to get the first n elements of an array. [n can be any
+//      positive number].
+//      For example: for array [7, 9, 0, -2] and n=3
+//      Print, [7, 9, 0]
+
+        let array = [18,19,49,50,32,15,21,16];
+        let n = 3;
+        for(let i=0;i<n;i++){
+            console.log(array[i]);
+        }
+
+//      Qs2. Write a JavaScript program to get the last n elements of an array. [n can be any
+//      positive number].
+//      For example: for array [7, 9, 0, -2] and n=3
+//      Print, [9, 0, -2]
+        for(let i = (array.length-n); i< array.length; i++){
+            console.log(array[i]);
+        }
+//      Qs3. Write a JavaScript program to check whether a string is blank or not.
+        let string = "";
+        if(string.length == 0){
+            console.log('Empty String');
+        }else{
+            console.log('Not Empty');   
+        }
+//      Qs4. Write a JavaScript program to test whether the character at the given (character)
+//      index is lower case.
+        let st1 = "        abcABcDEfjsK      ";
+        let index = 4;
+        if(st1.charAt(index) === st1.charAt(index).toLowerCase()){
+            console.log('Is Lower Case');
+        }else{
+            console.log('Not Lower Case');
+        }
+//      Qs5. Write a JavaScript program to strip leading and trailing spaces from a string.
+        console.log(st1.trim());
+//      Qs6. Write a JavaScript program to check if an element exists in an array or not.
+        let element = 181;
+        console.log(array.includes(element));
+    </script>
+</body>
+</html>
