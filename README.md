@@ -2,4 +2,6 @@
 This is Repo where I put codes of Full Stack Web Development
 
 Topics:
-1.
+1.Array
+2.Methods
+3.Strings
