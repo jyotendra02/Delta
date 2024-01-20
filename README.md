@@ -5,3 +5,5 @@ Topics:
 1.Array
 2.Methods
 3.Strings
+4.Functions
+5.Higher Order Funtion
