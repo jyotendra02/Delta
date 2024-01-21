@@ -73,3 +73,12 @@ function getMin(num){
   return min;
 }
 // Default Parameter 
+let nums = [21,123,1223,123,12,23123,321312,212,123,213,12,321,3,12,3123,1212,1];
+function maxFun(num,max=0){
+   num.forEach((el)=>{
+    if(el>max){
+      max = el;
+    }
+  })
+  return max;
+}
