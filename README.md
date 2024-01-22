@@ -7,3 +7,4 @@ Topics:
 3.Strings
 4.Functions
 5.Higher Order Funtion
+6.Arrow Function
