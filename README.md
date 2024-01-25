@@ -8,3 +8,4 @@ Topics:
 4.Functions
 5.Higher Order Funtion
 6.Arrow Function
+7.Default Parameters
