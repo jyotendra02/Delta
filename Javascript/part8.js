@@ -6,6 +6,7 @@
 4. every : this methods return true iff the callback return true for all elements
 5. reduce : reduces an array to a single value similar to every but here value depends upon the reducer function
     arr.reduce( function(accumulator , element) );
+6.
 */
 
 let arr = [1, 2, 3, 4, 5];
