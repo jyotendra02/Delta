@@ -86,8 +86,9 @@ let len = 5;
 for(let i = 1;i<=len;i++){
   for(let j = 1;j<=len;j++){
     if(i+j >= 6){
-      console.log('*');
-   
+      console.log('*');  
+
+      
     }
   }console.log('\n');  
 
