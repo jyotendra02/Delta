@@ -82,16 +82,16 @@ function maxFun(num,max=0){
   return max;
 }
 // Code to print pyramid pattern in JS
-let len = 5;
+let len = promt("Enter Size of pyramid");
 for(let i = 1;i<=len;i++){
   for(let j = 1;j<=len;j++){
     if(i+j >= 6){
-      console.log('*');  
-
-      
+      console.log('*');
     }
-  }console.log('\n');  
 
+
+    
+  }console.log('\n');  
 }
 
 
