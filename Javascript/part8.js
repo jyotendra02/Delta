@@ -81,9 +81,6 @@ function maxFun(num,max=0){
     }
   })
 
-
-
-  
   return max;
 
 
