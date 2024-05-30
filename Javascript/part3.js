@@ -11,13 +11,16 @@ Notes
 6.replace(old,new) only first occurence is replaced
 7.repeat(count) repeat the string count times
 
+
                                 Arrays
+
 typeof arrays = "objects"
 can be of mixed type 
 arrays are mutable 
 we can randomly assign values to the index the remaining spaces will be empty
 
                                 Array Methods
+                                
 1.Push() add to end
 2.Pop() delete from end and return
 3.Shift() delete from start and return

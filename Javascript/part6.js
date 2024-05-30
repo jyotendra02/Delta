@@ -53,9 +53,7 @@ let multipleGreet = function (func, n) {
 function greet() {
   console.log("Namaste!!");
 }
-
-//
-
+//odd even factory
 function oddEvenFactory(request) {
   if (request == "odd") {
     return function (n) {
@@ -88,3 +86,18 @@ const calculator = {
     return a/b;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -80,19 +80,9 @@ function maxFun(num,max=0){
       max = el;
     }
   })
-
   return max;
 
-
-
 }
-
-
-
-
-
-
-
 // Code to print pyramid pattern in JS
 let len = promt("Enter Size of pyramid");
 for(let i = 1;i<=len;i++){
@@ -100,11 +90,11 @@ for(let i = 1;i<=len;i++){
     if(i+j >= 6){
       console.log('*');
     }
-
-
-
   }console.log('\n');  
 }
+
+console.log('Test');
+
 
 
 

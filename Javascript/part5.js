@@ -34,7 +34,9 @@ const post = {
   comment: 1,
 };
 /*
+
 2. Adding and Updating
+
 */
 
 student.name = "chandan";
@@ -59,7 +61,7 @@ const newClassInfo = [
 ];
 
 /*
-                    Math Object
+               Math Object
 Math.PI
 Math.E
 Methods
@@ -68,7 +70,6 @@ Math.pow(2,3) --> 13
 Math.floor(-3.2) --> -4  nearest smallest integer
 Math.ceil(2.2) --> 3  nearest greatest integer
 Math.random()  ranges [0,1)
- 
 */
 
 //Random Integer

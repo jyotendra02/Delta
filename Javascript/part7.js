@@ -82,6 +82,8 @@ const student1 = {
     },3000)
   },
 
+
+  
   getInfo2: function (){
     setTimeout(function(){
       console.log(this); //here window is calling setTimeout and this will have the window as normal scope is used
