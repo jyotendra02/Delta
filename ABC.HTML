@@ -1,5 +1,4 @@
 <?php
-// Initialize variables to store user input and error messages
 $username = $password = $email = "";
 $usernameError = $passwordError = $emailError = "";
 // Check if the form is submitted
@@ -8,10 +7,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = $_POST["username"];
     $password = $_POST["password"];
     $email = $_POST["email"];
+
     // Check if the username is empty
+    
     if (empty($username)) {
         $usernameError = "Username is required";
     }
+    
     // Check if the password is empty
     if (empty($password)) {
         $passwordError = "Password is required";
@@ -21,21 +23,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $emailError = "Email is required";
     } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
         $emailError = "Invalid email format";
+
     }
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>User Form Validation</title>
+    <title>Form Validation</title>
   </head>
   <body>
-
     <h2>User Registration Form</h2>
-
     <form method="post" action="">
       <!-- Username input -->
       <label for="username">Username:</label>

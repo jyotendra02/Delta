@@ -6,9 +6,7 @@
 4. every : this methods return true iff the callback return true for all elements
 5. reduce : reduces an array to a single value similar to every but here value depends upon the reducer function
     arr.reduce( function(accumulator , element) );
-
 */
-
 let arr = [1, 2, 3, 4, 5];
 
 // let print = function(ele){
@@ -44,7 +42,6 @@ let finalValue = arr.reduce((res, el) => {
 
 // finding max using reduce
 
-
 let max = num.reduce((max, el) => {
   if (el > max) {
     return el;
@@ -71,7 +68,9 @@ function getMin(num){
   });
   return min;
 }
+
 // Default Parameter 
+
 let nums = [21,123,2,23123,321312,212,123,213,12];
 
 function maxFun(num,max=0){
@@ -81,22 +80,18 @@ function maxFun(num,max=0){
     }
   })
   return max;
-
 }
+
 // Code to print pyramid pattern in JS
+
 let len = promt("Enter Size of pyramid");
 for(let i = 1;i<=len;i++){
   for(let j = 1;j<=len;j++){
     if(i+j >= 6){
       console.log('*');
-    }
+    }    
   }console.log('\n');  
 }
-
-console.log('Test');
-
-
-
 
 
 
