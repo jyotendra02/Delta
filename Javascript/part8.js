@@ -90,7 +90,10 @@ for(let i = 1;i<=len;i++){
     if(i+j >= 6){
       console.log('*');
     }    
-  }console.log('\n');  
+  }
+  console.log('\n'); 
+  
+  
 }
 
 
