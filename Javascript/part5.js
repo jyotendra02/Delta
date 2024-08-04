@@ -3,11 +3,11 @@ Notes
                                 Object Literals
 => used to store keyed collections and complex entities
  property => (key,value) pair
-
 1. accessing the values
  post["content"]  or post.content
-
 JS converts automatically all the keys to string 
+
+
 ex:
 obj = {
   1:'a',
