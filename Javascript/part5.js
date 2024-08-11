@@ -1,12 +1,12 @@
 /*
 Notes 
+
+
                                 Object Literals
 => used to store keyed collections and complex entities
  property => (key,value) pair
-
 1. accessing the values
  post["content"]  or post.content
-
 JS converts automatically all the keys to string 
 ex:
 obj = {
@@ -43,7 +43,6 @@ student.name = "chandan";
 student.gender = "male";
 
 delete student.gender;
-
 // object of objects
 
 const classInfo = {
@@ -51,9 +50,7 @@ const classInfo = {
   jyotendra: { grade: "A+", class: "CsE" },
   shreyas: { grade: "A+", class: "CS" },
 };
-
 //array of objects
-
 const newClassInfo = [
   { grade: "A", class: "Medical" },
   { grade: "A+", class: "CSE" },
@@ -76,9 +73,7 @@ Math.random()  ranges [0,1)
 let maxRange = 10;
 let psuedoRand = Math.floor(Math.random() * maxRange); // Ranges From  TO maxRange - 1
 let random = Math.floor(Math.random() * maxRange) + 1; // Ranges From 0 TO maxRange
-
 //guessing game
-
 let guess = prompt("Enter a Number between 1 - 10");
 
 while (true) {
